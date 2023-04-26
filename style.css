@@ -1,52 +1,135 @@
 
 h1{
-    background-color: white;
-    color:black;
-    text-align:left ;
+    background-color:#f90000;
+    color:white;
+    font-family: typodermic font;
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: 0;
+   
+
 }
 
-body{
+/*body{
+    display:block;
     background-color: whitesmoke;  
     margin: 0;
     padding: 0;
     font-family: sans-serif; 
 
-}
+}*/
 
-.navbar{
-    display: inline-flex;
-    padding: 5px;
+navbar{
+    display: flex;
+    padding: 5px 20px;
+    background: white;
+    align-items: center;
     
 }
-.navright{
+/*nav ul{
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}*/
+
+/*nav ul {
+    color: black;
+    padding:15px 0;
+    cursor: pointer;
+}*/
+/*nav ul li.items{
+    width: auto;
+    margin: 0 16px;
+    text-align: right;
     display: flex;
-    align-items: ;
     justify-content: flex-end;
     margin-right: 45px;
     margin-top: 0;
+    flex: 1;
     
-    
+}*/
+/*a{
+    color: white;
+    text-decoration: none;
 }
+a.hover{
+    text-decoration: underline;
+}*/
+
+/*nav ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+
+}*/
 img{
-    margin-top: 5px;
     padding-left: 5px;
+    padding-right: 5px;
 }
+
 span{
     margin: 8px;
 
 }
 span:hover{
-    background-color: black;
-    padding: 10px;
-    color: white;
+    color: #f90000;
     border-radius: 8px;
 }
+/*nav ul li.items:hover{
+    color: #f90000;
+    border-radius: 8px;
+}*/
+
+
+.navright{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex: 1;
+    
+}
+
 .navleft{
+    
+    background-color:#f90000;
+    color:white;
+    font-family: typodermic font;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     margin-right: 45px;
-    margin-top: 0;
+    padding-bottom: 0;
+
     padding-left: 5px;
+    font-size: large;
 }
 
+/*@media all and (min-width: 768px) {
+    .items{
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .items{
+        order: 1;
+    }
+    .button {
+        order: 2;
+    }
+    .menu li {
+        padding: 15px 10px;
+    }
+    .menu li.button {
+        padding-right: 0;
+    }
+  }*/
