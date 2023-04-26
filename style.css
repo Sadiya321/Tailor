@@ -1,9 +1,52 @@
+
 h1{
     background-color: white;
     color:black;
     text-align:left ;
+}
+
+body{
+    background-color: whitesmoke;  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
 
 }
-.img{
+
+.navbar{
+    display: inline-flex;
+    padding: 5px;
     
 }
+.navright{
+    display: flex;
+    align-items: ;
+    justify-content: flex-end;
+    margin-right: 45px;
+    margin-top: 0;
+    
+    
+}
+img{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+span{
+    margin: 8px;
+
+}
+span:hover{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+.navleft{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 45px;
+    margin-top: 0;
+    padding-left: 5px;
+}
+
